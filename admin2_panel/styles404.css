@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(../img/landscape.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #d4001cd7;
+}
+
+p {
+    font-size: 1.2em;
+    color: #da4848;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
