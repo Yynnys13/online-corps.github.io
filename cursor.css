@@ -1,0 +1,14 @@
+/* Curseur par défaut pour tout le corps de la page */
+body {
+    cursor: url('/cursor/defaul.cur'), default;
+}
+
+/* Curseur pour les zones de texte */
+.text {
+    cursor: url('/cursor/text.cur'), text;
+}
+
+/* Curseur pour les liens */
+.pointer {
+    cursor: url('/cursor/pointer.cur'), pointer;
+}
